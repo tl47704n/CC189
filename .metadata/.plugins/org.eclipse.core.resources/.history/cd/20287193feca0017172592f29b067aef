@@ -1,0 +1,59 @@
+
+public class Main {
+	public static void main(String[] args) {
+	/*	String a="abcef";
+		UniqueString b = new UniqueString(a);
+		//System.out.println(b.checkUnique(a));
+		
+		
+		String x="eog";
+		String y="god";
+		PermutationOfString aa = new PermutationOfString();
+		System.out.println(aa.isPermutation(x, y));
+		System.out.println(aa.isPermutation2(x, y));
+		
+		int[] letters=new int[128];
+		System.out.println(++letters['a']);
+		System.out.println(letters['b']);
+		*/
+	
+		/*String temp;
+		ReplaceSpace rep = new ReplaceSpace();
+		temp="Mr John Smith          ";
+		char[] s = temp.toCharArray();
+		
+		rep.replaceSpace(s, 13);
+		
+		System.out.println(s);
+		*/ 
+		
+		/*
+		PermutationOfPalindrome t=new PermutationOfPalindrome();
+		System.out.println(t.checkPOP("levell"));
+		*/
+		/*
+		OneWay obj = new OneWay();
+		
+		System.out.println(obj.editIsLegal("pale", "ple"));
+		System.out.println(obj.editIsLegal("pales", "pale"));
+		System.out.println(obj.editIsLegal("pale", "bale"));
+		System.out.println(obj.editIsLegal("pale", "bae"));
+		*/
+		/*
+		StringCompressdion str=new StringCompressdion();
+		System.out.println(str.compression("abc"));
+		*/
+		int[][] matrix= {{1,2},
+						 {3,4}};
+		RotateMatrix r = new RotateMatrix();
+		//r.rotate(matrix);
+		for(int row=0;row<2;row++) {
+			for(int col=0;col<2;col++) {
+				System.out.print(matrix[row][col]);				
+			}
+			System.out.print("\n");
+		}
+		
+		
+	}
+}

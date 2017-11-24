@@ -1,0 +1,20 @@
+
+public class RotateMatrix {
+		RotateMatrix(){}
+		void rotate(int[][] matrix) {
+			int layer=0;
+			int n=matrix.length;
+			int[] temp = new int[matrix.length];
+			for(int i=0;i<matrix[layer].length;i++) {
+				temp[i]=matrix[layer][i];
+				//left to top
+				matrix[layer][i]=matrix[n-1-i][layer];
+				//bottom to left
+				matrix[i][layer]=matrix[n-1-layer][i];
+				//right to bottom
+				matrix[n-1-layer][i]=matrix[n-1-i][n-1-layer];
+				//top to right
+				matrix[i][n-1-layer]=temp[i];
+			}
+		}
+}

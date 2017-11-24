@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Main"/>
+<fullyQualifiedTypeName name="UniqueString"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="PermutationOfString"/>
+<fullyQualifiedTypeName name="ReplaceSpace"/>
+<fullyQualifiedTypeName name="PermutationOfPalindrome"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="StringCompressdion"/>
+<fullyQualifiedTypeName name="RotateMatrix"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="linkedlist.RemoveDups"/>
+<fullyQualifiedTypeName name="linkedlist.RemoveDupNoHash"/>
+<fullyQualifiedTypeName name="linkedlist.FindKthLastNode"/>
+<fullyQualifiedTypeName name="linkedlist.LinkedListNode"/>
+<fullyQualifiedTypeName name="linkedlist.ToKthEnd"/>
+</qualifiedTypeNameHistroy>

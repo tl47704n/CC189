@@ -1,0 +1,24 @@
+package linkedlist;
+
+public class RemoveDupNoHash {
+	public RemoveDupNoHash() {
+		// TODO Auto-generated constructor stub
+	}
+	public void removeDup(LinkedListNode n) {
+		LinkedListNode curr=n;
+		while(curr!=null) {
+			
+			LinkedListNode runner = curr;
+			while(runner!=null) {
+				if(runner.next.data==curr.data) {
+					runner.next=runner.next.next;
+				}
+				else {
+				runner=runner.next;
+				}
+			}
+			curr=curr.next;
+			
+		}
+	}
+}
