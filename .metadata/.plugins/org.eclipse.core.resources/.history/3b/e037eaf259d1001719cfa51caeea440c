@@ -109,11 +109,10 @@ public class Main {
 		}
 	*/
 		PartitionLinklist p = new PartitionLinklist();
-		LinkedListNode result=p.partitionOptimal(n1, 3);
+		LinkedListNode result=p.partition(n1, 3);
 		while(result!=null) {
 		System.out.println(result.data);
 		result=result.next;
-		
 		}
 	}
 }

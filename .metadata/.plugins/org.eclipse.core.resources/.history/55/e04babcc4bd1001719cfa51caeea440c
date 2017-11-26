@@ -1,9 +1,9 @@
 package linkedlist;
 
 public class LinkedListNode {
-	public int data;
+	public Object data;
 	public LinkedListNode next;	
-	public LinkedListNode(int data) {
+	public LinkedListNode(Object data) {
 			// TODO Auto-generated constructor stub
 			this.data=data;
 		}

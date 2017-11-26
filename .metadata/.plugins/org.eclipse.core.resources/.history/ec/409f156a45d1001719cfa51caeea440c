@@ -1,0 +1,11 @@
+package linkedlist;
+
+public class DeleteMid {
+	public DeleteMid() {
+		// TODO Auto-generated constructor stub
+	}
+	public void deleteMid(LinkedListNode mid){
+		mid.data=mid.next.data;
+		mid.next=mid.next.next;
+	}
+}

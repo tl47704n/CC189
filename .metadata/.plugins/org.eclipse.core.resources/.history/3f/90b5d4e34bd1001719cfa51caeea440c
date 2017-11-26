@@ -10,7 +10,7 @@ public class RemoveDups {
 
 		public void removeDups(LinkedListNode n){
 			HashSet<Object> set = new HashSet<Object>();
-			LinkedListNode previous = null;
+			LinkedListNode previous = new LinkedListNode(null);
 			while(n!=null) {
 				if(set.contains(n.data)) {
 					

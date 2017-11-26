@@ -111,7 +111,8 @@ public class Main {
 		PartitionLinklist p = new PartitionLinklist();
 		LinkedListNode result=p.partitionOptimal(n1, 3);
 		while(result!=null) {
-		System.out.println(result.data);
+		System.out.print(result.data);
+		System.out.println(" what");
 		result=result.next;
 		
 		}

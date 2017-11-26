@@ -113,7 +113,6 @@ public class Main {
 		while(result!=null) {
 		System.out.println(result.data);
 		result=result.next;
-		
 		}
 	}
 }
